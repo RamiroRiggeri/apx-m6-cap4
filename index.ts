@@ -23,7 +23,7 @@ Usando Cors de esta manera, automáticamente acepto cualquier petición al servi
 Si quisiera ser más específico, podría hacerlo de esta manera:
 
 app.use(cors({
-  origin: "path-to-accepted-URL",
+  origin: "path-to-accepted-URL", (ejemplo: "http://localhost:3000", "http://127.0.0.1:5500")
   methods: [ "GET", "POST"],
 }));
 
